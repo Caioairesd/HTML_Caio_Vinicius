@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário</title>
+    
+
+</head>
+<body bgcolor="#468765">
+    
+    <form method="post" action="/cgi-bin/post-query">
+    <input type="checkbox" name="Vehicle 1" value="Bike"/> I have a bike <br>
+    <input type="checkbox" name="Vehicle 2" value="Car"/> I have a car <br>
+    <input type="checkbox" name="Vehicle 3" value="Boat" checked/> I have a boat <br>
+    <input type="submit" value="submit">
+    </form>
+
+    <form method="post" action="/cgi-bin/post-query">
+        <p> Please select your gender:</p>
+    <input type="radio" name="gender" value="Male"/> Male <br>
+    <input type="radio" name="gender" value="Female"/>Female <br>
+    
+    
+    <p>Please select your age:</p>
+    <input type="radio" name="age" value="30"> 0 - 30 <br>
+    <input type="radio" name="age" value="60"> 31 - 60 <br>
+    <input type="radio" name="age" value="100"> 61 - 100 <br>
+    
+    <input type="submit" value="submit">
+    </form>
+
+
+</body>
+</html>
